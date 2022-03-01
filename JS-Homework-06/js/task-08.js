@@ -16,4 +16,6 @@ form.addEventListener("submit", (event) => {
   } else {
     alert("Błędny adres email !");
   }
+
+  form.reset();
 });
