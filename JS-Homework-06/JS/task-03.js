@@ -24,7 +24,8 @@ const images = [
 const gallRef = document.querySelector(".gallery");
 
 const item = images.reduce(
-  (temp, image) => (temp += `<li><img src=${image.url} alt=${image.alt}></li>`),
+  (temp, image) =>
+    (temp += `<li><img  src=${image.url} alt=${image.alt} width="100%"></li>`),
   ""
 );
 
